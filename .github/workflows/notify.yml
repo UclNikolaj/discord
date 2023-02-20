@@ -1,6 +1,9 @@
 name: Notify discord
 run-name: ${{ github.actor }} doing something
 on: [push]
+jobs:
+  Notify-Discord:
+    runs-on: ubuntu-latest
 steps:
   - name: Your previous build steps
   - name: Notify discord
