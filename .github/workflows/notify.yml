@@ -1,3 +1,6 @@
+name: Notify discord
+run-name: ${{ github.actor }} doing something
+on: [push]
 steps:
   - name: Your previous build steps
   - name: Notify discord
