@@ -12,4 +12,4 @@ jobs:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
         args: The ${{ github.event_name }} event triggered first step.
-        username: 'SpideyBot'
+        username: 'SpideyBos'
